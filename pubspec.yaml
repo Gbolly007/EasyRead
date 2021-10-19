@@ -1,0 +1,58 @@
+name: easy_reads
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.9+11
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^1.0.1
+  firebase_core: ^1.0.2
+  provider: ^5.0.0
+  cloud_firestore: ^1.0.3
+  another_flushbar: ^1.10.15
+  shared_preferences: ^2.0.5
+  paginate_firestore: ^1.0.0-nullsafety.0
+  syncfusion_flutter_pdfviewer: ^19.1.54
+  rxdart: 0.22.6
+  uuid: ^3.0.4
+  http: ^0.13.0
+  intl_phone_field: ^1.4.4
+  ars_progress_dialog: ^0.1.2
+  firebase_messaging: ^10.0.0
+  native_pdf_view: ^4.0.1
+  purchases_flutter: ^3.4.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+     - images/
+
+
+
+  fonts:
+    - family: AbrilFatface
+      fonts:
+         - asset: fonts/AbrilFatface-Regular.ttf
+
+    - family: RobotoLight
+      fonts:
+         - asset: fonts/Roboto-Light.ttf
+
+
